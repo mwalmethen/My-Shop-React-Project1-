@@ -1,10 +1,30 @@
 .App {
-  text-align: center;
+  text-align: center; /* alreaday text is centered */ 
+}
+.My-shop-image {
+  width: 1500px;
+  height: 680px;
+  overflow: auto;
+  position: sticky;
+  z-index: 10;
+}
+.Main-h1 {
+  font-size: 45px;
+  cursor: pointer;
+  transition: 1s;
+  font-weight: bold;
+}
+.Main-h1:hover {
+  font-size: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.description {
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.description:hover {
+  opacity: 0.5;
 }
 
 @media (prefers-reduced-motion: no-preference) {
