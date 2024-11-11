@@ -7,6 +7,7 @@
   overflow: auto;
   position: sticky;
   z-index: 10;
+  margin-bottom: 20px;
 }
 .Main-h1 {
   font-size: 45px;
@@ -26,23 +27,31 @@
 .description:hover {
   opacity: 0.5;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.My-product {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 40px;
+  
 }
+.description-product1, .description-profuct2 {
+  font-size: 22px;
+}
+.cookie-image {
+  width: 250px;
+  height: 250px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  transition: 1s;
+  cursor: pointer;
+}
+.cookie-image:hover {
+  width: 300px;
+  height: 300px;
+}
+
+
 
 .App-link {
   color: #61dafb;
