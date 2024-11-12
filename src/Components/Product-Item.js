@@ -7,6 +7,6 @@ import React from 'react'
   <p className="description-product1"> Chocolate Chip Cookie </p>
   <p className="description-product2">  5 KD </p>
     </div>
-  )
-}
+  );
+};
 export default ProductItem; 
