@@ -9,11 +9,6 @@ const products = [
     price: 8,
     image: "/rainbow-cookies.webp",
 },
-{
-    name: "Rainbow Cookie",
-    price: 8,
-    image: "/rainbow-cookies.webp",
-},
 
 ]
 export default products;

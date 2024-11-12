@@ -1,6 +1,4 @@
-.App {
-  text-align: center; /* alreaday text is centered */ 
-}
+
 .My-shop-image {
   width: 1500px;
   height: 680px;
@@ -14,6 +12,7 @@
   cursor: pointer;
   transition: 1s;
   font-weight: bold;
+  text-align: center;
 }
 .Main-h1:hover {
   font-size: 50px;
@@ -23,6 +22,7 @@
   font-size: 30px;
   cursor: pointer;
   transition: 0.15s;
+  text-align: center;
 }
 .description:hover {
   opacity: 0.5;
@@ -33,8 +33,9 @@
   gap: 40px;
   
 }
-.description-product1, .description-profuct2 {
+.description-product1, .description-product2 {
   font-size: 22px;
+  text-align: center;
 }
 .cookie-image {
   width: 250px;
@@ -51,6 +52,26 @@
   height: 300px;
 }
 
+.state {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.button {
+  border: none;
+  border-radius: 12px;
+  background-color: grey;
+  color: white;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.button:active {
+  opacity: 0.5;
+}
 
 
 .App-link {

@@ -1,11 +1,11 @@
 import React from 'react'
 
- const ProductItem = () => {
+ const ProductItem = (props) => {
   return (
     <div>
-  <img className="cookie-image" src="/Choco Chip Cookie.jpg" alt="cookies-image"/>
-  <p className="description-product1"> Chocolate Chip Cookie </p>
-  <p className="description-product2">  5 KD </p>
+  <img className="cookie-image" src={props.myProduct.image} alt="cookies-image"/>
+  <p className="description-product1">{props.myProduct.name} </p>
+  <p className="description-product2"> {`${props.myProduct.price} KD`} </p>
     </div>
   );
 };
